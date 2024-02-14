@@ -1,0 +1,52 @@
+.outercontainer{
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    border: 2px solid black;
+    border-radius: 2rem;
+    padding: 2rem;
+    display: inline-grid;
+    row-gap: 2rem;
+    background-image: linear-gradient(rgb(7, 2, 45), rgb(15, 82, 140));
+    color: white;
+}
+
+.forminput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    ;
+}
+.formgroup input{
+    text-align: center;
+    padding: 0.5rem 3.5rem;
+    font-size: large;
+    background-color:white;
+    color: rgb(44, 43, 43);
+}
+button{
+   margin-top: 4rem;
+   width:21rem ;
+   height:3rem ;
+   border-radius: 5rem;
+   background-image: linear-gradient(rgb(24, 4, 175), rgb(66, 124, 175));
+   color: white;
+   font-size: medium;
+}
+.form-select{
+    height: 2.5rem;
+    width: 21rem;
+    font-size: large;
+    margin:0px ;
+    padding: 0px;
+
+}
+@media(max-width:600px){
+    .container h1{
+        font-size: 1.5rem;
+        text-align: centre;
+    }
+}
